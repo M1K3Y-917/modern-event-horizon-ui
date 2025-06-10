@@ -62,6 +62,30 @@ const Gallery = () => {
       category: 'venues',
       title: 'Outdoor Pavilion',
       image: 'https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&h=400&fit=crop&crop=center'
+    },
+    {
+      id: 9,
+      category: 'weddings',
+      title: 'Beach Wedding',
+      image: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=600&h=400&fit=crop&crop=center'
+    },
+    {
+      id: 10,
+      category: 'corporate',
+      title: 'Product Launch',
+      image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=600&h=400&fit=crop&crop=center'
+    },
+    {
+      id: 11,
+      category: 'celebrations',
+      title: 'Graduation Party',
+      image: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=600&h=400&fit=crop&crop=center'
+    },
+    {
+      id: 12,
+      category: 'venues',
+      title: 'Historic Manor',
+      image: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?w=600&h=400&fit=crop&crop=center'
     }
   ];
 

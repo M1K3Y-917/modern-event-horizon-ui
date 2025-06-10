@@ -91,7 +91,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-4 sm:py-6 border-t border-border/20 animate-fade-in">
+          <div className="lg:hidden py-4 sm:py-6 border-t border-border/20 animate-fade-in bg-background/95 backdrop-blur-md rounded-b-lg">
             <nav className="flex flex-col space-y-4 sm:space-y-6">
               {navItems.map((item) => (
                 <a

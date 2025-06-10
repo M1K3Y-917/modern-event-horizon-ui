@@ -36,7 +36,11 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 lg:space-x-8 mb-12 sm:mb-16 animate-fade-in delay-500 px-4">
-            <Button size="lg" className="w-full sm:w-auto bg-foreground text-background hover:bg-accent hover:text-foreground px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg font-medium tracking-wide hover-scale group">
+            <Button 
+              size="lg" 
+              className="w-full sm:w-auto bg-foreground text-background hover:bg-accent hover:text-foreground px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg font-medium tracking-wide hover-scale group"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Plan Your Event
               <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
@@ -44,6 +48,7 @@ const Hero = () => {
               size="lg" 
               variant="outline" 
               className="w-full sm:w-auto border-foreground text-foreground hover:bg-foreground hover:text-background px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg font-medium tracking-wide"
+              onClick={() => document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' })}
             >
               View Portfolio
             </Button>
