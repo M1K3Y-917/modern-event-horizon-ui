@@ -7,10 +7,10 @@ const Gallery = () => {
   const [activeCategory, setActiveCategory] = useState('all');
   
   const categories = [
-    { id: 'all', name: 'All Events' },
+    { id: 'all', name: 'All' },
     { id: 'weddings', name: 'Weddings' },
     { id: 'corporate', name: 'Corporate' },
-    { id: 'parties', name: 'Parties' },
+    { id: 'celebrations', name: 'Celebrations' },
     { id: 'venues', name: 'Venues' }
   ];
 
@@ -18,19 +18,19 @@ const Gallery = () => {
     {
       id: 1,
       category: 'weddings',
-      title: 'Elegant Wedding Ceremony',
+      title: 'Elegant Garden Wedding',
       image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 2,
       category: 'corporate',
-      title: 'Corporate Conference',
+      title: 'Executive Conference',
       image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 3,
-      category: 'parties',
-      title: 'Birthday Celebration',
+      category: 'celebrations',
+      title: 'Milestone Anniversary',
       image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=400&fit=crop&crop=center'
     },
     {
@@ -42,19 +42,19 @@ const Gallery = () => {
     {
       id: 5,
       category: 'weddings',
-      title: 'Garden Wedding',
+      title: 'Romantic Ceremony',
       image: 'https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 6,
       category: 'corporate',
-      title: 'Business Dinner',
+      title: 'Gala Dinner',
       image: 'https://images.unsplash.com/photo-1414016642754-59fa7a13c424?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 7,
-      category: 'parties',
-      title: 'Milestone Anniversary',
+      category: 'celebrations',
+      title: 'Birthday Celebration',
       image: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=600&h=400&fit=crop&crop=center'
     },
     {
@@ -70,18 +70,19 @@ const Gallery = () => {
     : galleryItems.filter(item => item.category === activeCategory);
 
   return (
-    <section id="gallery" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-playfair font-bold text-foreground mb-4">
-            Event <span className="text-gradient">Gallery</span>
+    <section id="gallery" className="py-24 bg-background">
+      <div className="container mx-auto px-6">
+        <div className="text-center mb-20">
+          <h2 className="text-5xl md:text-6xl font-playfair font-light text-foreground mb-6">
+            Event <span className="text-accent italic">Portfolio</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-            Take a look at some of our recent events and beautiful venues
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
+            A curated collection of our most memorable events, showcasing the artistry 
+            and attention to detail that defines our approach.
           </p>
           
           {/* Category filters */}
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
+          <div className="flex flex-wrap justify-center gap-6 mb-16">
             {categories.map((category) => (
               <Button
                 key={category.id}
@@ -89,9 +90,9 @@ const Gallery = () => {
                 onClick={() => setActiveCategory(category.id)}
                 className={`${
                   activeCategory === category.id 
-                    ? 'gold-gradient text-white' 
-                    : 'border-gold-300 text-gold-600 hover:bg-gold-50'
-                }`}
+                    ? 'bg-foreground text-background hover:bg-accent' 
+                    : 'border-border text-foreground hover:bg-foreground hover:text-background'
+                } font-medium tracking-wide px-8 py-3`}
               >
                 {category.name}
               </Button>
@@ -104,18 +105,18 @@ const Gallery = () => {
           {filteredItems.map((item, index) => (
             <Card 
               key={item.id} 
-              className="group overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-all duration-300 hover-scale animate-fade-in"
+              className="group overflow-hidden border-0 elegant-shadow hover:elegant-shadow-lg transition-all duration-500 hover-scale animate-fade-in"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="relative overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-80 object-cover transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-white font-playfair font-semibold text-lg">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <div className="absolute bottom-6 left-6 right-6">
+                    <h3 className="text-white font-playfair font-light text-xl">
                       {item.title}
                     </h3>
                   </div>
@@ -125,9 +126,9 @@ const Gallery = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <Button size="lg" className="gold-gradient text-white hover:opacity-90">
-            View Full Gallery
+        <div className="text-center mt-16">
+          <Button size="lg" className="bg-foreground text-background hover:bg-accent hover:text-foreground px-12 py-6 font-medium tracking-wide">
+            View Complete Portfolio
           </Button>
         </div>
       </div>

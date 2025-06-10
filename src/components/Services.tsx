@@ -8,50 +8,51 @@ const Services = () => {
     {
       icon: Heart,
       title: 'Weddings',
-      description: 'Create the wedding of your dreams with our elegant venues and comprehensive planning services.',
-      features: ['Bridal suites', 'Garden ceremonies', 'Reception halls', 'Catering services']
+      description: 'Transform your special day into an extraordinary celebration with our bespoke wedding planning and elegant venues.',
+      features: ['Bridal coordination', 'Ceremony design', 'Reception planning', 'Floral arrangements']
     },
     {
       icon: Building2,
       title: 'Corporate Events',
-      description: 'Professional venues equipped with modern technology for conferences, meetings, and corporate celebrations.',
-      features: ['AV equipment', 'Business catering', 'Meeting rooms', 'Networking spaces']
+      description: 'Professional venues and comprehensive event management for conferences, galas, and corporate celebrations.',
+      features: ['Executive planning', 'Technical support', 'Catering coordination', 'Brand integration']
     },
     {
       icon: Cake,
-      title: 'Birthday Parties',
-      description: 'Celebrate special birthdays with customized decorations and entertainment for all ages.',
-      features: ['Custom themes', 'Entertainment', 'Party planning', 'Photography']
+      title: 'Private Celebrations',
+      description: 'Intimate gatherings and milestone celebrations designed with personal touches and attention to detail.',
+      features: ['Custom themes', 'Personal service', 'Curated experiences', 'Memory creation']
     },
     {
       icon: Users,
       title: 'Social Gatherings',
-      description: 'Host memorable reunions, anniversaries, and social events in our versatile spaces.',
-      features: ['Flexible layouts', 'Catering options', 'Event coordination', 'Decoration services']
+      description: 'Sophisticated venues for reunions, anniversaries, and social events that bring people together.',
+      features: ['Flexible spaces', 'Social coordination', 'Entertainment curation', 'Guest experiences']
     },
     {
       icon: Music,
-      title: 'Concerts & Shows',
-      description: 'State-of-the-art sound systems and staging for unforgettable musical performances.',
-      features: ['Professional sound', 'Stage lighting', 'Seating arrangements', 'Technical support']
+      title: 'Cultural Events',
+      description: 'Premium venues with exceptional acoustics and staging for concerts, performances, and cultural celebrations.',
+      features: ['Audio visual', 'Stage design', 'Artistic coordination', 'Cultural sensitivity']
     },
     {
       icon: Camera,
-      title: 'Photo Shoots',
-      description: 'Stunning backdrops and professional lighting for fashion, portrait, and commercial photography.',
-      features: ['Studio lighting', 'Backdrop options', 'Equipment rental', 'Location variety']
+      title: 'Brand Experiences',
+      description: 'Stunning locations and professional coordination for product launches, brand activations, and photography.',
+      features: ['Brand alignment', 'Visual storytelling', 'Experience design', 'Media coordination']
     }
   ];
 
   return (
-    <section id="services" className="py-20 luxury-gradient">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-playfair font-bold text-foreground mb-4">
-            Our <span className="text-gradient">Services</span>
+    <section id="services" className="py-24 elegant-gradient">
+      <div className="container mx-auto px-6">
+        <div className="text-center mb-20">
+          <h2 className="text-5xl md:text-6xl font-playfair font-light text-foreground mb-6">
+            Our <span className="text-accent italic">Services</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From intimate gatherings to grand celebrations, we offer comprehensive event services tailored to your vision
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            From intimate celebrations to grand occasions, we curate exceptional experiences 
+            that reflect your unique vision and exceed your expectations.
           </p>
         </div>
 
@@ -59,26 +60,26 @@ const Services = () => {
           {services.map((service, index) => (
             <Card 
               key={service.title} 
-              className="group hover:shadow-2xl transition-all duration-300 border-luxe-200 hover:border-gold-300 hover-scale animate-fade-in"
-              style={{ animationDelay: `${index * 100}ms` }}
+              className="group hover:elegant-shadow-lg transition-all duration-500 border-border/50 hover:border-accent/30 hover-scale animate-fade-in bg-background"
+              style={{ animationDelay: `${index * 150}ms` }}
             >
-              <CardContent className="p-8">
-                <div className="flex items-center justify-center w-16 h-16 gold-gradient rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <service.icon className="w-8 h-8 text-white" />
+              <CardContent className="p-10">
+                <div className="flex items-center justify-center w-16 h-16 bg-accent/10 rounded-full mb-8 group-hover:bg-accent/20 transition-colors duration-300">
+                  <service.icon className="w-8 h-8 text-accent" />
                 </div>
                 
-                <h3 className="text-2xl font-playfair font-semibold text-foreground mb-4">
+                <h3 className="text-2xl font-playfair font-light text-foreground mb-6">
                   {service.title}
                 </h3>
                 
-                <p className="text-muted-foreground mb-6 leading-relaxed">
+                <p className="text-muted-foreground mb-8 leading-relaxed">
                   {service.description}
                 </p>
                 
-                <ul className="space-y-2">
+                <ul className="space-y-3">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center text-sm text-muted-foreground">
-                      <div className="w-2 h-2 gold-gradient rounded-full mr-3"></div>
+                      <div className="w-1.5 h-1.5 bg-accent rounded-full mr-4"></div>
                       {feature}
                     </li>
                   ))}
