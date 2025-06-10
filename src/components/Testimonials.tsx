@@ -40,36 +40,36 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="py-20 luxury-gradient">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-playfair font-bold text-foreground mb-4">
+    <section className="py-16 sm:py-20 luxury-gradient">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-playfair font-bold text-foreground mb-3 sm:mb-4">
             What Our <span className="text-gradient">Clients Say</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
             Don't just take our word for it - hear from our satisfied clients about their exceptional experiences
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 max-w-6xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <Card 
               key={testimonial.id} 
               className="group hover:shadow-2xl transition-all duration-300 border-luxe-200 hover:border-gold-300 animate-fade-in"
               style={{ animationDelay: `${index * 200}ms` }}
             >
-              <CardContent className="p-8 relative">
-                <Quote className="absolute top-4 right-4 w-8 h-8 text-gold-300 opacity-50" />
+              <CardContent className="p-6 sm:p-8 relative">
+                <Quote className="absolute top-3 sm:top-4 right-3 sm:right-4 w-6 h-6 sm:w-8 sm:h-8 text-gold-300 opacity-50" />
                 
                 {/* Rating stars */}
-                <div className="flex items-center mb-4">
+                <div className="flex items-center mb-3 sm:mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-gold-400 fill-current" />
+                    <Star key={i} className="w-4 h-4 sm:w-5 sm:h-5 text-gold-400 fill-current" />
                   ))}
                 </div>
 
                 {/* Testimonial text */}
-                <p className="text-muted-foreground mb-6 leading-relaxed italic text-lg">
+                <p className="text-muted-foreground mb-4 sm:mb-6 leading-relaxed italic text-base sm:text-lg">
                   "{testimonial.text}"
                 </p>
 
@@ -78,11 +78,11 @@ const Testimonials = () => {
                   <img
                     src={testimonial.image}
                     alt={testimonial.name}
-                    className="w-12 h-12 rounded-full object-cover mr-4"
+                    className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover mr-3 sm:mr-4"
                   />
                   <div>
-                    <h4 className="font-semibold text-foreground">{testimonial.name}</h4>
-                    <p className="text-sm text-muted-foreground">{testimonial.event}</p>
+                    <h4 className="font-semibold text-foreground text-sm sm:text-base">{testimonial.name}</h4>
+                    <p className="text-xs sm:text-sm text-muted-foreground">{testimonial.event}</p>
                   </div>
                 </div>
               </CardContent>
@@ -91,23 +91,23 @@ const Testimonials = () => {
         </div>
 
         {/* Trust indicators */}
-        <div className="mt-16 text-center">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
+        <div className="mt-12 sm:mt-16 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 max-w-3xl mx-auto px-4">
             <div className="text-center">
-              <div className="text-3xl font-bold text-gradient mb-2">500+</div>
-              <p className="text-muted-foreground">Happy Clients</p>
+              <div className="text-2xl sm:text-3xl font-bold text-gradient mb-1 sm:mb-2">500+</div>
+              <p className="text-muted-foreground text-xs sm:text-sm">Happy Clients</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-gradient mb-2">4.9/5</div>
-              <p className="text-muted-foreground">Average Rating</p>
+              <div className="text-2xl sm:text-3xl font-bold text-gradient mb-1 sm:mb-2">4.9/5</div>
+              <p className="text-muted-foreground text-xs sm:text-sm">Average Rating</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-gradient mb-2">100%</div>
-              <p className="text-muted-foreground">Satisfaction</p>
+              <div className="text-2xl sm:text-3xl font-bold text-gradient mb-1 sm:mb-2">100%</div>
+              <p className="text-muted-foreground text-xs sm:text-sm">Satisfaction</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-gradient mb-2">24/7</div>
-              <p className="text-muted-foreground">Support</p>
+              <div className="text-2xl sm:text-3xl font-bold text-gradient mb-1 sm:mb-2">24/7</div>
+              <p className="text-muted-foreground text-xs sm:text-sm">Support</p>
             </div>
           </div>
         </div>
