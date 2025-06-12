@@ -9,26 +9,22 @@ const Services = () => {
     {
       icon: Heart,
       title: 'Wedding Events',
-      description: 'From intimate ceremonies to grand celebrations, we create magical wedding experiences that reflect your unique love story.',
-      price: 'Starting from $5,000'
+      description: 'From intimate ceremonies to grand celebrations, we create magical wedding experiences that reflect your unique love story.'
     },
     {
       icon: Building2,
       title: 'Corporate Events',
-      description: 'Professional conferences, product launches, and corporate galas designed to elevate your brand and engage your audience.',
-      price: 'Starting from $3,000'
+      description: 'Professional conferences, product launches, and corporate galas designed to elevate your brand and engage your audience.'
     },
     {
       icon: Users,
       title: 'Private Celebrations',
-      description: 'Birthdays, anniversaries, and milestone celebrations crafted with personal touches and unforgettable moments.',
-      price: 'Starting from $2,500'
+      description: 'Birthdays, anniversaries, and milestone celebrations crafted with personal touches and unforgettable moments.'
     },
     {
       icon: Music,
       title: 'Cultural & Social Events',
-      description: 'Festivals, concerts, and community gatherings that bring people together through shared experiences and traditions.',
-      price: 'Starting from $4,000'
+      description: 'Festivals, concerts, and community gatherings that bring people together through shared experiences and traditions.'
     }
   ];
 
@@ -67,10 +63,7 @@ const Services = () => {
                       {service.description}
                     </p>
                     
-                    <div className="flex items-center justify-between">
-                      <span className="text-accent font-medium text-lg">
-                        {service.price}
-                      </span>
+                    <div className="flex justify-end">
                       <Button 
                         variant="outline" 
                         className="border-foreground text-foreground hover:bg-foreground hover:text-background"
