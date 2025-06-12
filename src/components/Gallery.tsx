@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -17,21 +16,21 @@ const Gallery = () => {
     {
       id: 1,
       category: 'weddings',
-      title: 'Elegant Garden Wedding',
-      description: 'Romantic outdoor ceremony with 150 guests',
+      title: 'Elegant Wedding Reception',
+      description: 'Romantic ceremony with 150 guests',
       image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 2,
       category: 'corporate',
-      title: 'Tech Conference 2024',
+      title: 'Corporate Conference',
       description: 'Annual summit for 300 industry leaders',
       image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 3,
       category: 'celebrations',
-      title: 'Golden Anniversary',
+      title: 'Anniversary Celebration',
       description: '50th wedding anniversary celebration',
       image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=400&fit=crop&crop=center'
     },
@@ -45,9 +44,9 @@ const Gallery = () => {
     {
       id: 5,
       category: 'weddings',
-      title: 'Romantic Beach Ceremony',
-      description: 'Intimate seaside wedding for 80 guests',
-      image: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=600&h=400&fit=crop&crop=center'
+      title: 'Traditional Wedding',
+      description: 'Cultural wedding ceremony for 200 guests',
+      image: 'https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 6,
@@ -66,8 +65,8 @@ const Gallery = () => {
     {
       id: 8,
       category: 'weddings',
-      title: 'Historic Venue Wedding',
-      description: 'Classical ceremony in heritage mansion',
+      title: 'Garden Wedding',
+      description: 'Outdoor ceremony in elegant setting',
       image: 'https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=600&h=400&fit=crop&crop=center'
     },
     {
@@ -87,8 +86,8 @@ const Gallery = () => {
     {
       id: 11,
       category: 'weddings',
-      title: 'Destination Wedding',
-      description: 'Three-day celebration in Tuscany',
+      title: 'Grand Wedding Reception',
+      description: 'Luxury celebration with 300 guests',
       image: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?w=600&h=400&fit=crop&crop=center'
     },
     {
@@ -96,7 +95,7 @@ const Gallery = () => {
       category: 'celebrations',
       title: 'Cultural Festival',
       description: 'Traditional celebration with 400 attendees',
-      image: 'https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&h=400&fit=crop&crop=center'
+      image: 'https://images.unsplash.com/photo-1549451371-64aa98a6f632?w=600&h=400&fit=crop&crop=center'
     }
   ];
 

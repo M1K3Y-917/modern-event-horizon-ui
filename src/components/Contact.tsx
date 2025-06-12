@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold text-foreground mb-4">
-            Get In <span className="text-gradient">Touch</span>
+            Get In <span className="text-accent italic">Touch</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Ready to plan your perfect event? Contact us today for a personalized consultation
@@ -21,7 +21,7 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact form */}
-          <Card className="border-luxe-200 shadow-lg animate-fade-in">
+          <Card className="border-border/50 elegant-shadow animate-fade-in">
             <CardContent className="p-8">
               <h3 className="text-2xl font-playfair font-semibold text-foreground mb-6">
                 Send us a Message
@@ -34,7 +34,7 @@ const Contact = () => {
                     </label>
                     <Input 
                       placeholder="John" 
-                      className="border-luxe-300 focus:border-gold-400"
+                      className="border-border focus:border-accent"
                     />
                   </div>
                   <div>
@@ -43,7 +43,7 @@ const Contact = () => {
                     </label>
                     <Input 
                       placeholder="Doe" 
-                      className="border-luxe-300 focus:border-gold-400"
+                      className="border-border focus:border-accent"
                     />
                   </div>
                 </div>
@@ -55,7 +55,7 @@ const Contact = () => {
                   <Input 
                     type="email" 
                     placeholder="john@example.com" 
-                    className="border-luxe-300 focus:border-gold-400"
+                    className="border-border focus:border-accent"
                   />
                 </div>
                 
@@ -65,7 +65,7 @@ const Contact = () => {
                   </label>
                   <Input 
                     placeholder="0817 155 5777" 
-                    className="border-luxe-300 focus:border-gold-400"
+                    className="border-border focus:border-accent"
                   />
                 </div>
                 
@@ -73,7 +73,7 @@ const Contact = () => {
                   <label className="block text-sm font-medium text-foreground mb-2">
                     Event Type
                   </label>
-                  <select className="w-full px-3 py-2 border border-luxe-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gold-400 focus:border-gold-400">
+                  <select className="w-full px-3 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent">
                     <option>Select an event type</option>
                     <option>Wedding</option>
                     <option>Corporate Event</option>
@@ -90,13 +90,13 @@ const Contact = () => {
                   <Textarea 
                     placeholder="Tell us about your event..." 
                     rows={4}
-                    className="border-luxe-300 focus:border-gold-400"
+                    className="border-border focus:border-accent"
                   />
                 </div>
                 
                 <Button 
                   type="submit" 
-                  className="w-full gold-gradient text-white hover:opacity-90 py-6 text-lg font-semibold"
+                  className="w-full bg-foreground text-background hover:bg-accent hover:text-foreground py-6 text-lg font-semibold"
                 >
                   <Send className="w-5 h-5 mr-2" />
                   Send Message
@@ -107,7 +107,7 @@ const Contact = () => {
 
           {/* Contact information */}
           <div className="space-y-8 animate-fade-in delay-300">
-            <Card className="border-luxe-200 shadow-lg">
+            <Card className="border-border/50 elegant-shadow">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-playfair font-semibold text-foreground mb-6">
                   Contact Information
@@ -115,8 +115,8 @@ const Contact = () => {
                 
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
-                    <div className="flex items-center justify-center w-12 h-12 gold-gradient rounded-full flex-shrink-0">
-                      <MapPin className="w-6 h-6 text-white" />
+                    <div className="flex items-center justify-center w-12 h-12 bg-accent/20 text-accent rounded-full flex-shrink-0">
+                      <MapPin className="w-6 h-6" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Address</h4>
@@ -133,8 +133,8 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-start space-x-4">
-                    <div className="flex items-center justify-center w-12 h-12 gold-gradient rounded-full flex-shrink-0">
-                      <Phone className="w-6 h-6 text-white" />
+                    <div className="flex items-center justify-center w-12 h-12 bg-accent/20 text-accent rounded-full flex-shrink-0">
+                      <Phone className="w-6 h-6" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Phone</h4>
@@ -148,8 +148,8 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-start space-x-4">
-                    <div className="flex items-center justify-center w-12 h-12 gold-gradient rounded-full flex-shrink-0">
-                      <Mail className="w-6 h-6 text-white" />
+                    <div className="flex items-center justify-center w-12 h-12 bg-accent/20 text-accent rounded-full flex-shrink-0">
+                      <Mail className="w-6 h-6" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Email</h4>
@@ -163,8 +163,8 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-start space-x-4">
-                    <div className="flex items-center justify-center w-12 h-12 gold-gradient rounded-full flex-shrink-0">
-                      <Clock className="w-6 h-6 text-white" />
+                    <div className="flex items-center justify-center w-12 h-12 bg-accent/20 text-accent rounded-full flex-shrink-0">
+                      <Clock className="w-6 h-6" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Business Hours</h4>
@@ -179,23 +179,21 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            {/* Map placeholder */}
-            <Card className="border-luxe-200 shadow-lg">
+            {/* Embedded Google Map */}
+            <Card className="border-border/50 elegant-shadow">
               <CardContent className="p-0">
-                <a
-                  href="https://www.google.com/maps/place/Iceland+Civic+Centre/@6.6028139,3.1481564,12z/data=!4m10!1m2!2m1!1siceland+civic+center!3m6!1s0x103b91a62db163b7:0x46887f7328dff9c9!8m2!3d6.6028139!4d3.292352!15sChRpY2VsYW5kIGNpdmljIGNlbnRlcloWIhRpY2VsYW5kIGNpdmljIGNlbnRlcpIBC2V2ZW50X3ZlbnVlqgE9EAEyHxABIhtFDI5hfzSRhK-6OSIROabia0KET6Fm3NyEFRoyGBACIhRpY2VsYW5kIGNpdmljIGNlbnRlcuABAA!16s%2Fg%2F11h9mlr86n?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block"
-                >
-                  <div className="h-64 bg-gradient-to-br from-luxe-100 to-gold-100 rounded-lg flex items-center justify-center hover:opacity-90 transition-opacity duration-300">
-                    <div className="text-center">
-                      <MapPin className="w-12 h-12 text-gold-600 mx-auto mb-4" />
-                      <p className="text-muted-foreground">View on Google Maps</p>
-                      <p className="text-sm text-muted-foreground">Click to get directions</p>
-                    </div>
-                  </div>
-                </a>
+                <div className="h-64 rounded-lg overflow-hidden">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4308234315186!2d3.2897773!3d6.6028139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b91a62db163b7%3A0x46887f7328dff9c9!2sIceland%20Civic%20Centre!5e0!3m2!1sen!2sng!4v1734185489"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Iceland Civic Centre Location"
+                  />
+                </div>
               </CardContent>
             </Card>
           </div>
