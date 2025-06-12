@@ -7,11 +7,10 @@ const Gallery = () => {
   const [activeCategory, setActiveCategory] = useState('all');
   
   const categories = [
-    { id: 'all', name: 'All' },
+    { id: 'all', name: 'All Events' },
     { id: 'weddings', name: 'Weddings' },
     { id: 'corporate', name: 'Corporate' },
-    { id: 'celebrations', name: 'Celebrations' },
-    { id: 'venues', name: 'Venues' }
+    { id: 'celebrations', name: 'Celebrations' }
   ];
 
   const galleryItems = [
@@ -19,73 +18,85 @@ const Gallery = () => {
       id: 1,
       category: 'weddings',
       title: 'Elegant Garden Wedding',
+      description: 'Romantic outdoor ceremony with 150 guests',
       image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 2,
       category: 'corporate',
-      title: 'Executive Conference',
+      title: 'Tech Conference 2024',
+      description: 'Annual summit for 300 industry leaders',
       image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 3,
       category: 'celebrations',
-      title: 'Milestone Anniversary',
+      title: 'Golden Anniversary',
+      description: '50th wedding anniversary celebration',
       image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 4,
-      category: 'venues',
-      title: 'Grand Ballroom',
-      image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&h=400&fit=crop&crop=center'
+      category: 'corporate',
+      title: 'Annual Gala Dinner',
+      description: 'Charity fundraising event for 200 guests',
+      image: 'https://images.unsplash.com/photo-1414016642754-59fa7a13c424?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 5,
       category: 'weddings',
-      title: 'Romantic Ceremony',
-      image: 'https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=600&h=400&fit=crop&crop=center'
+      title: 'Romantic Beach Ceremony',
+      description: 'Intimate seaside wedding for 80 guests',
+      image: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 6,
       category: 'corporate',
-      title: 'Gala Dinner',
-      image: 'https://images.unsplash.com/photo-1414016642754-59fa7a13c424?w=600&h=400&fit=crop&crop=center'
+      title: 'Product Launch Event',
+      description: 'International brand reveal ceremony',
+      image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 7,
       category: 'celebrations',
-      title: 'Birthday Celebration',
+      title: 'Milestone Birthday Party',
+      description: '60th birthday celebration extravaganza',
       image: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 8,
-      category: 'venues',
-      title: 'Outdoor Pavilion',
-      image: 'https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&h=400&fit=crop&crop=center'
+      category: 'weddings',
+      title: 'Historic Venue Wedding',
+      description: 'Classical ceremony in heritage mansion',
+      image: 'https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 9,
-      category: 'weddings',
-      title: 'Beach Wedding',
-      image: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=600&h=400&fit=crop&crop=center'
+      category: 'corporate',
+      title: 'Executive Retreat',
+      description: 'Leadership development workshop',
+      image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&h=400&fit=crop&crop=center'
     },
     {
       id: 10,
-      category: 'corporate',
-      title: 'Product Launch',
-      image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=600&h=400&fit=crop&crop=center'
-    },
-    {
-      id: 11,
       category: 'celebrations',
-      title: 'Graduation Party',
+      title: 'Graduation Celebration',
+      description: 'University graduation party for 120 guests',
       image: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=600&h=400&fit=crop&crop=center'
     },
     {
-      id: 12,
-      category: 'venues',
-      title: 'Historic Manor',
+      id: 11,
+      category: 'weddings',
+      title: 'Destination Wedding',
+      description: 'Three-day celebration in Tuscany',
       image: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?w=600&h=400&fit=crop&crop=center'
+    },
+    {
+      id: 12,
+      category: 'celebrations',
+      title: 'Cultural Festival',
+      description: 'Traditional celebration with 400 attendees',
+      image: 'https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&h=400&fit=crop&crop=center'
     }
   ];
 
@@ -101,8 +112,8 @@ const Gallery = () => {
             Event <span className="text-accent italic">Portfolio</span>
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 sm:mb-12 leading-relaxed px-4">
-            A curated collection of our most memorable events, showcasing the artistry 
-            and attention to detail that defines our approach.
+            Discover our most memorable events, each crafted with precision and brought to life 
+            with exceptional attention to detail.
           </p>
           
           {/* Category filters */}
@@ -125,7 +136,7 @@ const Gallery = () => {
         </div>
 
         {/* Gallery grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {filteredItems.map((item, index) => (
             <Card 
               key={item.id} 
@@ -136,13 +147,16 @@ const Gallery = () => {
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-64 sm:h-72 lg:h-80 object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-72 sm:h-80 lg:h-96 object-cover transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                  <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6">
-                    <h3 className="text-white font-playfair font-light text-lg sm:text-xl">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <div className="absolute bottom-6 left-6 right-6">
+                    <h3 className="text-white font-playfair font-light text-xl sm:text-2xl mb-2">
                       {item.title}
                     </h3>
+                    <p className="text-white/80 text-sm sm:text-base">
+                      {item.description}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -152,7 +166,7 @@ const Gallery = () => {
 
         <div className="text-center mt-12 sm:mt-16">
           <Button size="lg" className="bg-foreground text-background hover:bg-accent hover:text-foreground px-8 sm:px-12 py-4 sm:py-6 font-medium tracking-wide text-sm sm:text-base">
-            View Complete Portfolio
+            View All Events
           </Button>
         </div>
       </div>
