@@ -145,7 +145,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-luxe-200 text-sm">
-            © 2024 Iceland Civic Centre. All rights reserved. | Privacy Policy | Terms of Service
+            © {new Date().getFullYear()} Iceland Civic Centre. All rights reserved. | Privacy Policy | Terms of Service
           </div>
           <div className="text-luxe-200 text-sm">
             Designed with ❤️ for extraordinary events
