@@ -17,20 +17,20 @@ const Hero = () => {
           {/* Elegant badge */}
           <div className="inline-flex items-center space-x-2 sm:space-x-3 bg-secondary/50 backdrop-blur-sm rounded-full px-4 sm:px-8 py-3 sm:py-4 mb-8 sm:mb-12 animate-fade-in">
             <Star className="w-4 h-4 sm:w-5 sm:h-5 text-accent fill-current" />
-            <span className="text-muted-foreground font-medium tracking-wide text-xs sm:text-sm">Premier Event Experiences</span>
+            <span className="text-muted-foreground font-medium tracking-wide text-xs sm:text-sm">Premier Event Venue</span>
           </div>
 
           {/* Main heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-playfair font-light mb-6 sm:mb-8 animate-fade-in leading-tight">
-            Extraordinary
+            Iceland Civic
             <span className="block font-light text-accent italic">
-              Events
+              Centre
             </span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 sm:mb-12 max-w-3xl mx-auto animate-fade-in delay-300 leading-relaxed px-4">
-            Where elegance meets perfection. Create unforgettable moments in our sophisticated venues, 
+            Where elegance meets perfection. Create unforgettable moments in our sophisticated venue, 
             tailored to your vision with impeccable attention to detail.
           </p>
 
@@ -61,7 +61,7 @@ const Hero = () => {
                 <Users className="w-5 h-5 sm:w-6 sm:h-6 text-accent mr-2 sm:mr-3" />
                 <span className="text-2xl sm:text-3xl lg:text-4xl font-playfair font-light text-foreground">500+</span>
               </div>
-              <p className="text-muted-foreground tracking-wide text-sm sm:text-base">Events Curated</p>
+              <p className="text-muted-foreground tracking-wide text-sm sm:text-base">Events Hosted</p>
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center mb-3">

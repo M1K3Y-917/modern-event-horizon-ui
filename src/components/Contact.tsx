@@ -64,7 +64,7 @@ const Contact = () => {
                     Phone
                   </label>
                   <Input 
-                    placeholder="+1 (555) 123-4567" 
+                    placeholder="0817 155 5777" 
                     className="border-luxe-300 focus:border-gold-400"
                   />
                 </div>
@@ -120,11 +120,15 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Address</h4>
-                      <p className="text-muted-foreground">
-                        123 Luxury Lane<br />
-                        Event District, ED 12345<br />
-                        United States
-                      </p>
+                      <a
+                        href="https://www.google.com/maps/place/Iceland+Civic+Centre/@6.6028139,3.1481564,12z/data=!4m10!1m2!2m1!1siceland+civic+center!3m6!1s0x103b91a62db163b7:0x46887f7328dff9c9!8m2!3d6.6028139!4d3.292352!15sChRpY2VsYW5kIGNpdmljIGNlbnRlcloWIhRpY2VsYW5kIGNpdmljIGNlbnRlcpIBC2V2ZW50X3ZlbnVlqgE9EAEyHxABIhtFDI5hfzSRhK-6OSIROabia0KET6Fm3NyEFRoyGBACIhRpY2VsYW5kIGNpdmljIGNlbnRlcuABAA!16s%2Fg%2F11h9mlr86n?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-accent transition-colors duration-300"
+                      >
+                        Iceland Civic Centre<br />
+                        Lagos, Nigeria
+                      </a>
                     </div>
                   </div>
                   
@@ -134,10 +138,12 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Phone</h4>
-                      <p className="text-muted-foreground">
-                        +1 (555) 123-4567<br />
-                        +1 (555) 987-6543
-                      </p>
+                      <a
+                        href="tel:08171555777"
+                        className="text-muted-foreground hover:text-accent transition-colors duration-300"
+                      >
+                        0817 155 5777
+                      </a>
                     </div>
                   </div>
                   
@@ -147,10 +153,12 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                      <p className="text-muted-foreground">
-                        info@luxeevents.com<br />
-                        bookings@luxeevents.com
-                      </p>
+                      <a
+                        href="mailto:info@icelandciviccentre.com"
+                        className="text-muted-foreground hover:text-accent transition-colors duration-300"
+                      >
+                        info@icelandciviccentre.com
+                      </a>
                     </div>
                   </div>
                   
@@ -174,13 +182,20 @@ const Contact = () => {
             {/* Map placeholder */}
             <Card className="border-luxe-200 shadow-lg">
               <CardContent className="p-0">
-                <div className="h-64 bg-gradient-to-br from-luxe-100 to-gold-100 rounded-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="w-12 h-12 text-gold-600 mx-auto mb-4" />
-                    <p className="text-muted-foreground">Interactive Map</p>
-                    <p className="text-sm text-muted-foreground">Click to view directions</p>
+                <a
+                  href="https://www.google.com/maps/place/Iceland+Civic+Centre/@6.6028139,3.1481564,12z/data=!4m10!1m2!2m1!1siceland+civic+center!3m6!1s0x103b91a62db163b7:0x46887f7328dff9c9!8m2!3d6.6028139!4d3.292352!15sChRpY2VsYW5kIGNpdmljIGNlbnRlcloWIhRpY2VsYW5kIGNpdmljIGNlbnRlcpIBC2V2ZW50X3ZlbnVlqgE9EAEyHxABIhtFDI5hfzSRhK-6OSIROabia0KET6Fm3NyEFRoyGBACIhRpY2VsYW5kIGNpdmljIGNlbnRlcuABAA!16s%2Fg%2F11h9mlr86n?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <div className="h-64 bg-gradient-to-br from-luxe-100 to-gold-100 rounded-lg flex items-center justify-center hover:opacity-90 transition-opacity duration-300">
+                    <div className="text-center">
+                      <MapPin className="w-12 h-12 text-gold-600 mx-auto mb-4" />
+                      <p className="text-muted-foreground">View on Google Maps</p>
+                      <p className="text-sm text-muted-foreground">Click to get directions</p>
+                    </div>
                   </div>
-                </div>
+                </a>
               </CardContent>
             </Card>
           </div>

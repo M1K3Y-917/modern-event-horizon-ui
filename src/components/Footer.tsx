@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-3xl font-playfair font-bold text-gradient bg-gradient-to-r from-gold-300 to-gold-500 bg-clip-text text-transparent mb-4">
-                Luxe Events
+                Iceland Civic Centre
               </h3>
               <p className="text-luxe-200 leading-relaxed">
                 Creating unforgettable moments and extraordinary experiences. Your premier destination for luxury events and celebrations.
@@ -20,20 +20,30 @@ const Footer = () => {
             </div>
             
             <div className="flex space-x-4">
-              {[
-                { icon: Facebook, href: '#' },
-                { icon: Instagram, href: '#' },
-                { icon: Twitter, href: '#' },
-                { icon: Youtube, href: '#' }
-              ].map((social, index) => (
-                <a
-                  key={index}
-                  href={social.href}
-                  className="w-10 h-10 bg-white/10 hover:bg-gold-500 rounded-full flex items-center justify-center transition-colors duration-300"
-                >
-                  <social.icon className="w-5 h-5" />
-                </a>
-              ))}
+              <a
+                href="https://www.facebook.com/icelandciviccentre/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-white/10 hover:bg-gold-500 rounded-full flex items-center justify-center transition-colors duration-300"
+              >
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.instagram.com/icelandciviccentre/?hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-white/10 hover:bg-gold-500 rounded-full flex items-center justify-center transition-colors duration-300"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a
+                href="https://x.com/CivicIceland"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-white/10 hover:bg-gold-500 rounded-full flex items-center justify-center transition-colors duration-300"
+              >
+                <Twitter className="w-5 h-5" />
+              </a>
             </div>
           </div>
 
@@ -88,20 +98,35 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-gold-400 mt-1 flex-shrink-0" />
-                <span className="text-luxe-200">
-                  123 Luxury Lane<br />
-                  Event District, ED 12345
-                </span>
+                <a
+                  href="https://www.google.com/maps/place/Iceland+Civic+Centre/@6.6028139,3.1481564,12z/data=!4m10!1m2!2m1!1siceland+civic+center!3m6!1s0x103b91a62db163b7:0x46887f7328dff9c9!8m2!3d6.6028139!4d3.292352!15sChRpY2VsYW5kIGNpdmljIGNlbnRlcloWIhRpY2VsYW5kIGNpdmljIGNlbnRlcpIBC2V2ZW50X3ZlbnVlqgE9EAEyHxABIhtFDI5hfzSRhK-6OSIROabia0KET6Fm3NyEFRoyGBACIhRpY2VsYW5kIGNpdmljIGNlbnRlcuABAA!16s%2Fg%2F11h9mlr86n?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-luxe-200 hover:text-gold-300 transition-colors duration-300"
+                >
+                  Iceland Civic Centre<br />
+                  Lagos, Nigeria
+                </a>
               </div>
               
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-gold-400 flex-shrink-0" />
-                <span className="text-luxe-200">+1 (555) 123-4567</span>
+                <a
+                  href="tel:08171555777"
+                  className="text-luxe-200 hover:text-gold-300 transition-colors duration-300"
+                >
+                  0817 155 5777
+                </a>
               </div>
               
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-gold-400 flex-shrink-0" />
-                <span className="text-luxe-200">info@luxeevents.com</span>
+                <a
+                  href="mailto:info@icelandciviccentre.com"
+                  className="text-luxe-200 hover:text-gold-300 transition-colors duration-300"
+                >
+                  info@icelandciviccentre.com
+                </a>
               </div>
             </div>
 
@@ -120,7 +145,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-luxe-200 text-sm">
-            © 2024 Luxe Events. All rights reserved. | Privacy Policy | Terms of Service
+            © 2024 Iceland Civic Centre. All rights reserved. | Privacy Policy | Terms of Service
           </div>
           <div className="text-luxe-200 text-sm">
             Designed with ❤️ for extraordinary events

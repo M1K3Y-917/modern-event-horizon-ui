@@ -36,11 +36,11 @@ const Header = () => {
             <div className="flex items-center space-x-4 sm:space-x-8">
               <div className="flex items-center space-x-2">
                 <Phone className="w-3 h-3 sm:w-4 sm:h-4" />
-                <span>(555) 123-4567</span>
+                <span>0817 155 5777</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-3 h-3 sm:w-4 sm:h-4" />
-                <span>info@luxeevents.com</span>
+                <span>info@icelandciviccentre.com</span>
               </div>
             </div>
             <div className="hidden md:block font-medium text-foreground text-xs sm:text-sm">
@@ -53,7 +53,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-4 sm:py-6">
           <div className="flex items-center">
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-playfair font-light tracking-wide text-foreground">
-              Luxe Events
+              Iceland Civic Centre
             </h1>
           </div>
 
@@ -72,10 +72,17 @@ const Header = () => {
           </nav>
 
           <div className="hidden lg:flex items-center space-x-3 xl:space-x-4">
-            <Button variant="outline" className="border-foreground text-foreground hover:bg-foreground hover:text-background font-medium tracking-wide text-xs sm:text-sm px-3 sm:px-4 py-2">
+            <Button 
+              variant="outline" 
+              className="border-foreground text-foreground hover:bg-foreground hover:text-background font-medium tracking-wide text-xs sm:text-sm px-3 sm:px-4 py-2"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Get Quote
             </Button>
-            <Button className="bg-foreground text-background hover:bg-accent hover:text-foreground font-medium tracking-wide text-xs sm:text-sm px-3 sm:px-4 py-2">
+            <Button 
+              className="bg-foreground text-background hover:bg-accent hover:text-foreground font-medium tracking-wide text-xs sm:text-sm px-3 sm:px-4 py-2"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Book Event
             </Button>
           </div>
@@ -104,10 +111,23 @@ const Header = () => {
                 </a>
               ))}
               <div className="flex flex-col space-y-3 pt-4 sm:pt-6">
-                <Button variant="outline" className="border-foreground text-foreground text-sm">
+                <Button 
+                  variant="outline" 
+                  className="border-foreground text-foreground text-sm"
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                >
                   Get Quote
                 </Button>
-                <Button className="bg-foreground text-background text-sm">
+                <Button 
+                  className="bg-foreground text-background text-sm"
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                >
                   Book Event
                 </Button>
               </div>
