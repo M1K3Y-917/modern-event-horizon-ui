@@ -1,39 +1,49 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Shield, Clock, Users, Award, Palette, Headphones } from 'lucide-react';
+import { Car, Shield, Users, Award, AirVent, Zap, Cctv, Headphones, Building2 } from 'lucide-react';
 
 const Features = () => {
   const features = [
     {
-      icon: Shield,
-      title: 'Trusted Excellence',
-      description: 'Over 500 successful events with 99% client satisfaction rate and industry-leading safety protocols.'
+      icon: Car,
+      title: 'Ample Parking Space',
+      description: 'Extremely spacious parking area that accommodates hundreds of vehicles with ease and convenience.'
     },
     {
-      icon: Clock,
-      title: 'Timely Execution',
-      description: 'Precise timeline management ensuring every moment unfolds perfectly according to your vision.'
+      icon: Shield,
+      title: '24/7 Security',
+      description: 'Top-notch standby security team featuring both professional police and in-house security personnel.'
     },
     {
       icon: Users,
-      title: 'Expert Team',
-      description: 'Professional coordinators, designers, and vendors working seamlessly to bring your vision to life.'
+      title: 'Banquet Setup',
+      description: 'Complete banquet tables and chairs arrangement to accommodate your guests comfortably.'
+    },
+    {
+      icon: AirVent,
+      title: 'Climate Control',
+      description: 'Advanced air conditioning system ensuring optimal comfort for all your guests throughout the event.'
     },
     {
       icon: Award,
-      title: 'Award Winning',
-      description: 'Recognized industry leader with multiple awards for outstanding event design and execution.'
-    },
-    {
-      icon: Palette,
-      title: 'Custom Design',
-      description: 'Bespoke styling and décor tailored to your unique aesthetic preferences and brand identity.'
+      title: 'Professional Lighting',
+      description: 'State-of-the-art lighting system to create the perfect ambiance for your special occasion.'
     },
     {
       icon: Headphones,
-      title: '24/7 Support',
-      description: 'Dedicated support throughout your planning journey with immediate response to all inquiries.'
+      title: 'Premium Sound System',
+      description: 'High-quality sound equipment ensuring crystal clear audio for speeches, music, and entertainment.'
+    },
+    {
+      icon: Zap,
+      title: 'Uninterrupted Power Supply',
+      description: '24-hour power supply with backup generators ensuring your event runs smoothly without interruptions.'
+    },
+    {
+      icon: Building2,
+      title: 'Complete Facilities',
+      description: 'Modern restroom facilities, CCTV surveillance, professional stage, and much more for your convenience.'
     }
   ];
 
@@ -45,12 +55,12 @@ const Features = () => {
             Why Choose <span className="text-accent italic">Iceland Civic Centre</span>
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
-            Experience the difference that comes with working alongside industry professionals 
-            who are passionate about creating extraordinary moments.
+            Experience world-class facilities and exceptional service that make every event 
+            memorable and extraordinary.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8">
           {features.map((feature, index) => (
             <Card 
               key={feature.title} 
