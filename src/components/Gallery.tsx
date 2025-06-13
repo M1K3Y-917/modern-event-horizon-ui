@@ -75,6 +75,10 @@ const Gallery = () => {
                   src={item.image}
                   alt={item.title}
                   className="w-full h-72 sm:h-80 lg:h-96 object-cover transition-transform duration-700 group-hover:scale-110"
+                  onError={(e) => {
+                    console.log('Image failed to load:', item.image);
+                    e.currentTarget.src = '/placeholder.svg';
+                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <div className="absolute bottom-6 left-6 right-6">
