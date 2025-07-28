@@ -63,10 +63,10 @@ const Contact = () => {
                   <label className="block text-sm font-medium text-foreground mb-2">
                     Phone
                   </label>
-                  <Input 
-                    placeholder="0817 155 5777" 
-                    className="border-border focus:border-accent"
-                  />
+                   <Input 
+                     placeholder="0802 724 9042" 
+                     className="border-border focus:border-accent"
+                   />
                 </div>
                 
                 <div>
@@ -120,14 +120,14 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Address</h4>
-                      <a
-                        href="https://www.google.com/maps/place/Iceland+Civic+Centre/@6.6028139,3.1481564,12z/data=!4m10!1m2!2m1!1siceland+civic+center!3m6!1s0x103b91a62db163b7:0x46887f7328dff9c9!8m2!3d6.6028139!4d3.292352!15sChRpY2VsYW5kIGNpdmljIGNlbnRlcloWIhRpY2VsYW5kIGNpdmljIGNlbnRlcpIBC2V2ZW50X3ZlbnVlqgE9EAEyHxABIhtFDI5hfzSRhK-6OSIROabia0KET6Fm3NyEFRoyGBACIhRpY2VsYW5kIGNpdmljIGNlbnRlcuABAA!16s%2Fg%2F11h9mlr86n?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D"
+                    <a
+                        href="https://www.google.com/maps/place/15+Olayiwola+St,+Abule+Egba,+Lagos+100001,+Nigeria/@6.6552855,3.2952147,17z"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-accent transition-colors duration-300"
                       >
-                        Iceland Civic Centre<br />
-                        Lagos, Nigeria
+                         15 Olayiwola Street, Abule Egba<br />
+                         Lagos, Nigeria 100001
                       </a>
                     </div>
                   </div>
@@ -139,10 +139,10 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Phone</h4>
                       <a
-                        href="tel:08171555777"
+                        href="tel:08027249042"
                         className="text-muted-foreground hover:text-accent transition-colors duration-300"
                       >
-                        0817 155 5777
+                         0802 724 9042
                       </a>
                     </div>
                   </div>
@@ -154,10 +154,10 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Email</h4>
                       <a
-                        href="mailto:info@icelandciviccentre.com"
+                        href="mailto:info@theblueribbonevents.com"
                         className="text-muted-foreground hover:text-accent transition-colors duration-300"
                       >
-                        info@icelandciviccentre.com
+                        info@theblueribbonevents.com
                       </a>
                     </div>
                   </div>
@@ -183,16 +183,16 @@ const Contact = () => {
             <Card className="border-border/50 elegant-shadow">
               <CardContent className="p-0">
                 <div className="h-64 rounded-lg overflow-hidden">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4308234315186!2d3.2897773!3d6.6028139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b91a62db163b7%3A0x46887f7328dff9c9!2sIceland%20Civic%20Centre!5e0!3m2!1sen!2sng!4v1734185489"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="Iceland Civic Centre Location"
-                  />
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.0573442196434!2d3.2952147!3d6.6552855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93d5d5e1b7f1%3A0x1c3d4f5e6a7b8c9d!2s15%20Olayiwola%20St%2C%20Abule%20Egba%2C%20Lagos%20100001%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1734185489"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="The Blue Ribbon Events Location"
+                    />
                 </div>
               </CardContent>
             </Card>

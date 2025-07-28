@@ -34,11 +34,11 @@ const Header = () => {
             <div className="flex items-center space-x-4 sm:space-x-8">
               <div className="flex items-center space-x-2">
                 <Phone className="w-3 h-3 sm:w-4 sm:h-4" />
-                <span>0817 155 5777</span>
+                <span>0802 724 9042</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-3 h-3 sm:w-4 sm:h-4" />
-                <span>info@icelandciviccentre.com</span>
+                <span>info@theblueribbonevents.com</span>
               </div>
             </div>
             <div className="hidden md:block font-medium text-foreground text-xs sm:text-sm">
@@ -51,7 +51,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-4 sm:py-6">
           <div className="flex items-center">
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-playfair font-light tracking-wide text-foreground">
-              Iceland Civic Centre
+              The Blue Ribbon Events
             </h1>
           </div>
 

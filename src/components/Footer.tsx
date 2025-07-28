@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-3xl font-playfair font-bold text-gradient bg-gradient-to-r from-gold-300 to-gold-500 bg-clip-text text-transparent mb-4">
-                Iceland Civic Centre
+                The Blue Ribbon Events
               </h3>
               <p className="text-luxe-200 leading-relaxed">
                 Creating unforgettable moments and extraordinary experiences. Your premier destination for luxury events and celebrations.
@@ -21,7 +21,7 @@ const Footer = () => {
             
             <div className="flex space-x-4">
               <a
-                href="https://www.facebook.com/icelandciviccentre/"
+                href="https://m.facebook.com/TheBlueRibbonEventCentre/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 hover:bg-gold-500 rounded-full flex items-center justify-center transition-colors duration-300"
@@ -29,7 +29,7 @@ const Footer = () => {
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="https://www.instagram.com/icelandciviccentre/?hl=en"
+                href="https://www.instagram.com/theblueribboneventsandhall/?hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 hover:bg-gold-500 rounded-full flex items-center justify-center transition-colors duration-300"
@@ -37,7 +37,7 @@ const Footer = () => {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="https://x.com/CivicIceland"
+                href="https://x.com/blueribbon_ng"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 hover:bg-gold-500 rounded-full flex items-center justify-center transition-colors duration-300"
@@ -99,33 +99,33 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-gold-400 mt-1 flex-shrink-0" />
                 <a
-                  href="https://www.google.com/maps/place/Iceland+Civic+Centre/@6.6028139,3.1481564,12z/data=!4m10!1m2!2m1!1siceland+civic+center!3m6!1s0x103b91a62db163b7:0x46887f7328dff9c9!8m2!3d6.6028139!4d3.292352!15sChRpY2VsYW5kIGNpdmljIGNlbnRlcloWIhRpY2VsYW5kIGNpdmljIGNlbnRlcpIBC2V2ZW50X3ZlbnVlqgE9EAEyHxABIhtFDI5hfzSRhK-6OSIROabia0KET6Fm3NyEFRoyGBACIhRpY2VsYW5kIGNpdmljIGNlbnRlcuABAA!16s%2Fg%2F11h9mlr86n?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D"
+                  href="https://www.google.com/maps/place/15+Olayiwola+St,+Abule+Egba,+Lagos+100001,+Nigeria/@6.6552855,3.2952147,17z"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-luxe-200 hover:text-gold-300 transition-colors duration-300"
                 >
-                  Iceland Civic Centre<br />
-                  Lagos, Nigeria
+                  15 Olayiwola Street, Abule Egba<br />
+                  Lagos, Nigeria 100001
                 </a>
               </div>
               
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-gold-400 flex-shrink-0" />
                 <a
-                  href="tel:08171555777"
+                  href="tel:08027249042"
                   className="text-luxe-200 hover:text-gold-300 transition-colors duration-300"
                 >
-                  0817 155 5777
+                  0802 724 9042
                 </a>
               </div>
               
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-gold-400 flex-shrink-0" />
                 <a
-                  href="mailto:info@icelandciviccentre.com"
+                  href="mailto:info@theblueribbonevents.com"
                   className="text-luxe-200 hover:text-gold-300 transition-colors duration-300"
                 >
-                  info@icelandciviccentre.com
+                  info@theblueribbonevents.com
                 </a>
               </div>
             </div>
@@ -145,7 +145,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-luxe-200 text-sm">
-            © {new Date().getFullYear()} Iceland Civic Centre. All rights reserved. | Privacy Policy | Terms of Service
+            © {new Date().getFullYear()} The Blue Ribbon Events. All rights reserved. | Privacy Policy | Terms of Service
           </div>
           <div className="text-luxe-200 text-sm">
             Designed with ❤️ for extraordinary events
