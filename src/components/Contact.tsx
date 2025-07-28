@@ -184,7 +184,7 @@ const Contact = () => {
               <CardContent className="p-0">
                 <div className="h-64 rounded-lg overflow-hidden">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.052!2d3.3107514!3d6.6560465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b96cdae4aca4d:0x820ba25fb091d795!2sThe+Blue+Ribbon+Event+Centre,+15+Olayiwola+St,+Ifako-Ijaiye,+Lagos+101232,+Lagos!5e0!3m2!1sen!2sng!4v1734185489"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.0573442196434!2d3.2952147!3d6.6552855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93d5d5e1b7f1%3A0x1c3d4f5e6a7b8c9d!2s15%20Olayiwola%20St%2C%20Abule%20Egba%2C%20Lagos%20100001%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1734185489"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
