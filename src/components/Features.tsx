@@ -52,7 +52,7 @@ const Features = () => {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-playfair font-light text-foreground mb-4 sm:mb-6">
-            Why Choose <span className="text-accent italic">Iceland Civic Centre</span>
+            Why Choose <span className="text-accent italic">The Blue Ribbon Events</span>
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
             Experience world-class facilities and exceptional service that make every event 
