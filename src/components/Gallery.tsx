@@ -15,13 +15,13 @@ const Gallery = () => {
       id: 2,
       title: 'Wedding Reception',
       description: 'Elegant wedding celebration setup',
-      image: '/images/download (1).jpeg'
+      image: '/images/download(1).jpeg'
     },
     {
       id: 3,
       title: 'Grand Celebration',
       description: 'Luxury event arrangement',
-      image: '/images/download (2).jpeg'
+      image: '/images/download(2).jpeg'
     },
     {
       id: 4,
@@ -33,25 +33,25 @@ const Gallery = () => {
       id: 5,
       title: 'Anniversary Celebration',
       description: 'Memorable anniversary event',
-      image: '/images/images (1).jpeg'
+      image: '/images/images(1).jpeg'
     },
     {
       id: 6,
       title: 'Corporate Gala',
       description: 'Professional networking event',
-      image: '/images/unnamed (1).jpg'
+      image: '/images/unnamed(1).jpg'
     },
     {
       id: 7,
       title: 'Wedding Ceremony',
       description: 'Beautiful wedding setup',
-      image: '/images/unnamed (2).jpg'
+      image: '/images/unnamed(2).jpg'
     },
     {
       id: 8,
       title: 'Special Event',
       description: 'Memorable celebration',
-      image: '/images/unnamed (3).jpg'
+      image: '/images/unnamed(3).jpg'
     }
   ];
 
