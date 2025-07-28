@@ -9,49 +9,49 @@ const Gallery = () => {
       id: 1,
       title: 'Corporate Event Setup',
       description: 'Professional conference arrangement',
-      image: '/images/download.jpeg'
+      image: '/images/FB_IMG_1749805723771.png'
     },
     {
       id: 2,
       title: 'Wedding Reception',
       description: 'Elegant wedding celebration setup',
-      image: '/images/download (1).jpeg'
+      image: '/images/FB_IMG_1749805731930.png'
     },
     {
       id: 3,
       title: 'Grand Celebration',
       description: 'Luxury event arrangement',
-      image: '/images/download (2).jpeg'
+      image: '/images/FB_IMG_1749805741475.png'
     },
     {
       id: 4,
       title: 'Birthday Party',
       description: 'Special birthday celebration',
-      image: '/images/images.jpeg'
+      image: '/images/FB_IMG_1749805747648.png'
     },
     {
       id: 5,
       title: 'Anniversary Celebration',
       description: 'Memorable anniversary event',
-      image: '/images/images (1).jpeg'
+      image: '/images/FB_IMG_1749805756593.png'
     },
     {
       id: 6,
       title: 'Corporate Gala',
       description: 'Professional networking event',
-      image: '/images/unnamed (1).jpg'
+      image: '/images/FB_IMG_1749805773108.png'
     },
     {
       id: 7,
       title: 'Wedding Ceremony',
       description: 'Beautiful wedding setup',
-      image: '/images/unnamed (2).jpg'
+      image: '/images/FB_IMG_1749805779314.png'
     },
     {
       id: 8,
       title: 'Special Event',
       description: 'Memorable celebration',
-      image: '/images/unnamed (3).jpg'
+      image: '/images/FB_IMG_1749805779314.png'
     }
   ];
 
