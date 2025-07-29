@@ -61,10 +61,10 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-foreground hover:text-accent transition-colors duration-300 font-medium tracking-wide relative group text-sm uppercase"
+                className="text-[#228be6] hover:text-[#1976d2] transition-colors duration-300 font-medium tracking-wide relative group text-sm uppercase"
               >
                 {item.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#228be6] transition-all duration-300 group-hover:w-full"></span>
               </a>
             ))}
           </nav>
@@ -102,7 +102,7 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-foreground hover:text-accent transition-colors py-2 text-sm uppercase tracking-wide"
+                  className="text-[#228be6] hover:text-[#1976d2] transition-colors py-2 text-sm uppercase tracking-wide"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.name}
