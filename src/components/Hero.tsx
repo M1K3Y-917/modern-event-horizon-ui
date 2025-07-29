@@ -5,7 +5,7 @@ import { ArrowRight, Star, Users, Calendar } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background px-4 sm:px-6">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background px-4 sm:px-6 animate-fade-in">
       {/* Subtle background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-48 sm:w-96 h-48 sm:h-96 bg-accent rounded-full mix-blend-multiply filter blur-3xl"></div>
@@ -21,9 +21,9 @@ const Hero = () => {
           </div>
 
           {/* Main heading */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-playfair font-light mb-6 sm:mb-8 animate-fade-in leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-playfair font-light mb-6 sm:mb-8 animate-fade-in leading-tight animate-[scale-in_1s_ease-out_0.2s_both]">
             The Blue Ribbon
-            <span className="block font-light text-accent italic">
+            <span className="block font-light text-accent italic animate-[slide-in-right_1s_ease-out_0.5s_both]">
               Events
             </span>
           </h1>
@@ -41,7 +41,7 @@ const Hero = () => {
               className="w-full sm:w-auto bg-foreground text-background hover:bg-accent hover:text-foreground px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg font-medium tracking-wide hover-scale group"
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Plan Your Event
+              Book Your Event
               <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button 
