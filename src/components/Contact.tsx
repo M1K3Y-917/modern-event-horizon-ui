@@ -96,7 +96,7 @@ const Contact = () => {
                 
                 <Button 
                   type="submit" 
-                  className="w-full bg-foreground text-background hover:bg-accent hover:text-foreground py-6 text-lg font-semibold"
+                  className="w-full py-6 text-lg font-semibold"
                 >
                   <Send className="w-5 h-5 mr-2" />
                   Send Message
