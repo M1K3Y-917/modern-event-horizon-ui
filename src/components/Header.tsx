@@ -50,9 +50,11 @@ const Header = () => {
         {/* Main navigation */}
         <div className="flex items-center justify-between py-4 sm:py-6">
           <div className="flex items-center">
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-playfair font-light tracking-wide text-foreground">
-              The Blue Ribbon Events
-            </h1>
+            <img 
+              src="/images/blueribbon events logo.png" 
+              alt="The Blue Ribbon Events" 
+              className="h-8 sm:h-10 md:h-12 lg:h-14 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
