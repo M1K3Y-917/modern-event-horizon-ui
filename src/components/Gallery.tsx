@@ -20,7 +20,7 @@ const Gallery = () => {
     {
       id: 3,
       title: ' ',
-      description:' '
+      description:' ',
       image: '/images/d.jpg'
     },
     {
