@@ -154,10 +154,10 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Email</h4>
                       <a
-                        href="mailto:info@theblueribbonevents.com"
+                        href="mailto:blueribboneventss@gmail.com"
                         className="text-muted-foreground hover:text-accent transition-colors duration-300"
                       >
-                        info@theblueribbonevents.com
+                        blueribboneventss@gmail.com
                       </a>
                     </div>
                   </div>
