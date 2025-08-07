@@ -49,7 +49,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-4 sm:py-6">
           <div className="flex items-center">
             <img 
-              src="/images/blueribbon events logo.png" 
+              src="/images/blueribbon%20events%20logo.png" 
               alt="The Blue Ribbon Events" 
               className="h-16 sm:h-20 md:h-28 lg:h-32 w-auto"
             />
