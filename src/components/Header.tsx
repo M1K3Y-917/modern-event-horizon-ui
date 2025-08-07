@@ -36,7 +36,7 @@ const Header = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-3 h-3 sm:w-4 sm:h-4" />
-                <span>info@theblueribbonevents.com</span>
+                <span>blueribboneventss@gmail.com</span>
               </div>
             </div>
             <div className="hidden md:block font-medium text-foreground text-xs sm:text-sm">
@@ -49,7 +49,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-4 sm:py-6">
           <div className="flex items-center">
             <img 
-              src="/images/blueribbon%20events%20logo.png" 
+              src="/images/logo.png" 
               alt="The Blue Ribbon Events" 
               className="h-16 sm:h-20 md:h-28 lg:h-32 w-auto"
             />
