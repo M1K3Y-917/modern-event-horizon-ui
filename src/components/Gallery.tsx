@@ -7,51 +7,57 @@ const Gallery = () => {
   const galleryItems = [
     {
       id: 1,
-      title: 'Corporate Event Setup',
-      description: 'Professional conference arrangement',
-      image: '/images/download.jpeg'
+      title: '  ',
+      description: '  ',
+      image: '/images/a.jpg'
     },
     {
       id: 2,
-      title: 'Wedding Reception',
-      description: 'Elegant wedding celebration setup',
-      image: '/images/download(1).jpeg'
+      title: ' ',
+      description: '   ',
+      image: '/images/b.jpg'
     },
     {
       id: 3,
-      title: 'Grand Celebration',
-      description: 'Luxury event arrangement',
-      image: '/images/download(2).jpeg'
+      title: ' ',
+      description:' '
+      image: '/images/d.jpg'
     },
     {
       id: 4,
-      title: 'Birthday Party',
-      description: 'Special birthday celebration',
-      image: '/images/images.jpeg'
+      title: ' ',
+      description: ' ',
+      image: '/images/e.jpg'
     },
     {
       id: 5,
-      title: 'Anniversary Celebration',
-      description: 'Memorable anniversary event',
-      image: '/images/images(1).jpeg'
+      title:' ',
+      description: ' ',
+      image: '/images/f.jpg'
     },
     {
       id: 6,
-      title: 'Corporate Gala',
-      description: 'Professional networking event',
-      image: '/images/unnamed(1).jpg'
+      title:' ',
+      description: ' ',
+      image: '/images/g.jpg'
     },
     {
       id: 7,
-      title: 'Wedding Ceremony',
-      description: 'Beautiful wedding setup',
-      image: '/images/unnamed(2).jpg'
+      title: ' ',
+      description: ' ',
+      image: '/images/h.jpg'
     },
     {
       id: 8,
-      title: 'Special Event',
-      description: 'Memorable celebration',
-      image: '/images/unnamed(3).jpg'
+      title: ' ',
+      description: ' ',
+      image: '/images/i.jpg'
+    },
+    {
+      id: 9,
+      title: ' ',
+      description:' ',
+      image: '/images/j.jpg'
     }
   ];
 
