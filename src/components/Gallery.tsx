@@ -107,11 +107,6 @@ const Gallery = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12 sm:mt-16">
-          <Button size="lg" className="px-8 sm:px-12 py-4 sm:py-6 font-medium tracking-wide text-sm sm:text-base">
-            View All Events
-          </Button>
-        </div>
       </div>
     </section>
   );

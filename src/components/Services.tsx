@@ -85,7 +85,7 @@ const Services = () => {
           </p>
           <Button 
             size="lg" 
-            className="bg-foreground text-background hover:bg-accent hover:text-foreground px-12 py-6 font-medium tracking-wide"
+            className="bg-blue-600 text-white hover:bg-blue-700 px-12 py-6 font-medium tracking-wide"
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Discuss Your Event
