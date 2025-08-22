@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Separator } from '@/components/ui/separator';
-import { MapPin, Phone, Mail, Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -19,32 +19,6 @@ const Footer = () => {
               </p>
             </div>
             
-            <div className="flex space-x-4">
-              <a
-                href="https://m.facebook.com/TheBlueRibbonEventCentre/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors duration-300"
-              >
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a
-                href="https://www.instagram.com/theblueribboneventsandhall/?hl=en"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors duration-300"
-              >
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a
-                href="https://x.com/blueribbon_ng"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors duration-300"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           {/* Quick links */}
@@ -55,15 +29,12 @@ const Footer = () => {
                 { name: 'Home', href: '#home' },
                 { name: 'Services', href: '#services' },
                 { name: 'Gallery', href: '#gallery' },
-                { name: 'About Us', href: '#about' },
-                { name: 'Contact', href: '#contact' },
-                { name: 'Blog', href: '#' },
-                { name: 'FAQ', href: '#' }
+                { name: 'Contact', href: '#contact' }
               ].map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-white/70 hover:text-white transition-colors duration-300"
+                    className="text-muted-foreground hover:text-foreground transition-colors duration-300"
                   >
                     {link.name}
                   </a>
@@ -86,7 +57,7 @@ const Footer = () => {
                 'Event Coordination'
               ].map((service) => (
                 <li key={service}>
-                  <span className="text-white/70">{service}</span>
+                  <span className="text-muted-foreground">{service}</span>
                 </li>
               ))}
             </ul>
@@ -97,42 +68,45 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white mb-6">Contact Info</h4>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-white mt-1 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-foreground mt-1 flex-shrink-0" />
                 <a
-                  href="https://www.google.com/maps/place/15+Olayiwola+St,+Abule+Egba,+Lagos+100001,+Nigeria/@6.6552855,3.2952147,17z"
+                  href="https://www.google.com/maps/place/Godwin+Palladium,+Genesis+Estate+Main+Gate+,+Olaide,+Ijaiye+Bus-Stop,+Aboru+St,+Oke+Odo,+Lagos+102213,+Lagos/@6.628387,3.2869573,16z"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white/70 hover:text-white transition-colors duration-300"
+                  className="text-muted-foreground hover:text-foreground transition-colors duration-300"
                 >
-                  15 Olayiwola Street, Abule Egba<br />
-                  Lagos, Nigeria 100001
+                  Genesis Estate Main Gate, Olaide,<br />
+                  Ijaiye Bus-Stop, Aboru St, Oke Odo,<br />
+                  Lagos 102213, Lagos
                 </a>
               </div>
               
               <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-white flex-shrink-0" />
-                <a
-                  href="tel:08027249042"
-                  className="text-white/70 hover:text-white transition-colors duration-300"
-                >
-                  0802 724 9042
-                </a>
+                <Phone className="w-5 h-5 text-foreground flex-shrink-0" />
+                <div className="text-muted-foreground">
+                  <a href="tel:08053781165" className="hover:text-foreground transition-colors duration-300 block">
+                    0805 378 1165
+                  </a>
+                  <a href="tel:07062897093" className="hover:text-foreground transition-colors duration-300 block">
+                    0706 289 7093
+                  </a>
+                </div>
               </div>
               
               <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-white flex-shrink-0" />
+                <Mail className="w-5 h-5 text-foreground flex-shrink-0" />
                 <a
                   href="mailto:info@godwinpalladium.com"
-                  className="text-white/70 hover:text-white transition-colors duration-300"
+                  className="text-muted-foreground hover:text-foreground transition-colors duration-300"
                 >
                   info@godwinpalladium.com
                 </a>
               </div>
             </div>
 
-            <div className="mt-6 p-4 bg-white/5 rounded-lg">
-              <h5 className="font-semibold text-white mb-2">Business Hours</h5>
-              <div className="text-sm text-white/70 space-y-1">
+            <div className="mt-6 p-4 bg-muted/10 rounded-lg">
+              <h5 className="font-semibold text-foreground mb-2">Business Hours</h5>
+              <div className="text-sm text-muted-foreground space-y-1">
                 <p>Mon - Fri: 9:00 AM - 8:00 PM</p>
                 <p>Sat: 10:00 AM - 6:00 PM</p>
                 <p>Sun: 12:00 PM - 5:00 PM</p>
@@ -144,10 +118,10 @@ const Footer = () => {
         <Separator className="my-8 bg-white/10" />
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <div className="text-white/70 text-sm">
-            © {new Date().getFullYear()} The Godwin Palladium. All rights reserved. | Privacy Policy | Terms of Service
+          <div className="text-muted-foreground text-sm">
+            © {new Date().getFullYear()} The Godwin Palladium. All rights reserved.
           </div>
-          <div className="text-white/70 text-sm">
+          <div className="text-muted-foreground text-sm">
             Designed with ❤️ for extraordinary events
           </div>
         </div>

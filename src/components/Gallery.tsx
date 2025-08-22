@@ -7,56 +7,56 @@ const Gallery = () => {
   const galleryItems = [
     {
       id: 1,
-      title: '  ',
-      description: '  ',
+      title: 'Grand Ballroom',
+      description: 'Elegant wedding ceremony setup',
       image: '/images/a.jpg'
     },
     {
       id: 2,
-      title: ' ',
-      description: '   ',
+      title: 'Corporate Events',
+      description: 'Professional meeting spaces',
       image: '/images/b.jpg'
     },
     {
       id: 3,
-      title: ' ',
-      description:' ',
+      title: 'Birthday Celebrations',
+      description: 'Memorable birthday party setup',
       image: '/images/d.jpg'
     },
     {
       id: 4,
-      title: ' ',
-      description: ' ',
+      title: 'Reception Hall',
+      description: 'Beautiful reception arrangements',
       image: '/images/e.jpg'
     },
     {
       id: 5,
-      title:' ',
-      description: ' ',
+      title: 'Anniversary Events',
+      description: 'Romantic anniversary celebrations',
       image: '/images/f.jpg'
     },
     {
       id: 6,
-      title:' ',
-      description: ' ',
+      title: 'Conference Room',
+      description: 'Modern conference facilities',
       image: '/images/g.jpg'
     },
     {
       id: 7,
-      title: ' ',
-      description: ' ',
+      title: 'Outdoor Garden',
+      description: 'Scenic outdoor event space',
       image: '/images/h.jpg'
     },
     {
       id: 8,
-      title: ' ',
-      description: ' ',
+      title: 'VIP Lounge',
+      description: 'Exclusive VIP area setup',
       image: '/images/i.jpg'
     },
     {
       id: 9,
-      title: ' ',
-      description:' ',
+      title: 'Catering Services',
+      description: 'Exquisite dining experiences',
       image: '/images/j.jpg'
     }
   ];

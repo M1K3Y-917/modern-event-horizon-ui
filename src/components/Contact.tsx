@@ -64,7 +64,7 @@ const Contact = () => {
                     Phone
                   </label>
                    <Input 
-                     placeholder="0802 724 9042" 
+                     placeholder="0805 378 1165" 
                      className="border-border focus:border-accent"
                    />
                 </div>
@@ -121,13 +121,14 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Address</h4>
                     <a
-                        href="https://www.google.com/maps/place/15+Olayiwola+St,+Abule+Egba,+Lagos+100001,+Nigeria/@6.6552855,3.2952147,17z"
+                        href="https://www.google.com/maps/place/Godwin+Palladium,+Genesis+Estate+Main+Gate+,+Olaide,+Ijaiye+Bus-Stop,+Aboru+St,+Oke+Odo,+Lagos+102213,+Lagos/@6.628387,3.2869573,16z"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-accent transition-colors duration-300"
                       >
-                         15 Olayiwola Street, Abule Egba<br />
-                         Lagos, Nigeria 100001
+                         Genesis Estate Main Gate, Olaide,<br />
+                         Ijaiye Bus-Stop, Aboru St, Oke Odo,<br />
+                         Lagos 102213, Lagos
                       </a>
                     </div>
                   </div>
@@ -138,12 +139,14 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Phone</h4>
-                      <a
-                        href="tel:08027249042"
-                        className="text-muted-foreground hover:text-accent transition-colors duration-300"
-                      >
-                         0802 724 9042
-                      </a>
+                      <div className="text-muted-foreground">
+                        <a href="tel:08053781165" className="hover:text-accent transition-colors duration-300 block">
+                          0805 378 1165
+                        </a>
+                        <a href="tel:07062897093" className="hover:text-accent transition-colors duration-300 block">
+                          0706 289 7093
+                        </a>
+                      </div>
                     </div>
                   </div>
                   
@@ -184,7 +187,7 @@ const Contact = () => {
               <CardContent className="p-0">
                 <div className="h-64 rounded-lg overflow-hidden">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.052!2d3.3107514!3d6.6560465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b96cdae4aca4d:0x820ba25fb091d795!2s15+Olayiwola+St,+Ifako-Ijaiye,+Lagos+101232,+Lagos!5e0!3m2!1sen!2sng!4v1734185489"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.600542407226!2d3.284637375169449!3d6.628387093420782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b914ce39368d3:0xfc2d38240526dd32!2sGodwin%20Palladium%2C%20Genesis%20Estate%20Main%20Gate%20%2C%20Olaide%2C%20Ijaiye%20Bus-Stop%2C%20Aboru%20St%2C%20Oke%20Odo%2C%20Lagos%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1734185489"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
