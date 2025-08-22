@@ -83,11 +83,11 @@ const Services = () => {
           <p className="text-muted-foreground mb-6 text-lg">
             Need something custom? We create bespoke events for any occasion.
           </p>
-          <Button 
-            size="lg" 
-            className="bg-blue-600 text-white hover:bg-blue-700 px-12 py-6 font-medium tracking-wide"
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-          >
+            <Button 
+              size="lg" 
+              className="px-12 py-6 font-medium tracking-wide"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
             Discuss Your Event
           </Button>
         </div>

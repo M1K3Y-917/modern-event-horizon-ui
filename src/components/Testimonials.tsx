@@ -10,7 +10,7 @@ const Testimonials = () => {
       name: 'Sarah & Michael Johnson',
       event: 'Wedding Reception',
       rating: 5,
-      text: 'The Blue Ribbon Events made our dream wedding come true! Every detail was perfect, from the elegant venue to the exceptional service. Our guests are still talking about how magical the evening was.',
+      text: 'The Godwin Palladium made our dream wedding come true! Every detail was perfect, from the elegant venue to the exceptional service. Our guests are still talking about how magical the evening was.',
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face'
     },
     {
@@ -18,7 +18,7 @@ const Testimonials = () => {
       name: 'David Chen',
       event: 'Corporate Conference',
       rating: 5,
-      text: 'The professionalism and attention to detail at The Blue Ribbon Events is unmatched. Our annual conference was a huge success thanks to their seamless coordination and state-of-the-art facilities.',
+      text: 'The professionalism and attention to detail at The Godwin Palladium is unmatched. Our annual conference was a huge success thanks to their seamless coordination and state-of-the-art facilities.',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face'
     },
     {
@@ -34,7 +34,7 @@ const Testimonials = () => {
       name: 'Robert & Linda Thompson',
       event: '50th Anniversary',
       rating: 5,
-      text: 'Celebrating our golden anniversary at The Blue Ribbon Events was absolutely perfect. The staff made us feel like royalty, and the venue was breathtaking. An unforgettable milestone celebration!',
+      text: 'Celebrating our golden anniversary at The Godwin Palladium was absolutely perfect. The staff made us feel like royalty, and the venue was breathtaking. An unforgettable milestone celebration!',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face'
     }
   ];

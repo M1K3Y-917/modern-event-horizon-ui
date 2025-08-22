@@ -22,9 +22,9 @@ const Hero = () => {
 
           {/* Main heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-playfair font-light mb-6 sm:mb-8 animate-fade-in leading-tight animate-[scale-in_1s_ease-out_0.2s_both]">
-            The Blue Ribbon
+            The Godwin
             <span className="block font-light text-accent italic animate-[slide-in-right_1s_ease-out_0.5s_both]">
-              Events
+              Palladium
             </span>
           </h1>
 

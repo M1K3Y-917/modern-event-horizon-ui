@@ -154,10 +154,10 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Email</h4>
                       <a
-                        href="mailto:blueribboneventss@gmail.com"
+                        href="mailto:info@godwinpalladium.com"
                         className="text-muted-foreground hover:text-accent transition-colors duration-300"
                       >
-                        blueribboneventss@gmail.com
+                        info@godwinpalladium.com
                       </a>
                     </div>
                   </div>
@@ -184,14 +184,14 @@ const Contact = () => {
               <CardContent className="p-0">
                 <div className="h-64 rounded-lg overflow-hidden">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.052!2d3.3107514!3d6.6560465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b96cdae4aca4d:0x820ba25fb091d795!2sThe+Blue+Ribbon+Event+Centre,+15+Olayiwola+St,+Ifako-Ijaiye,+Lagos+101232,+Lagos!5e0!3m2!1sen!2sng!4v1734185489"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.052!2d3.3107514!3d6.6560465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b96cdae4aca4d:0x820ba25fb091d795!2s15+Olayiwola+St,+Ifako-Ijaiye,+Lagos+101232,+Lagos!5e0!3m2!1sen!2sng!4v1734185489"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="The Blue Ribbon Events Location"
+                      title="The Godwin Palladium Location"
                     />
                 </div>
               </CardContent>

@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-3xl font-playfair font-bold text-white mb-4">
-                The Blue Ribbon Events
+                The Godwin Palladium
               </h3>
               <p className="text-white/80 leading-relaxed">
                 Creating unforgettable moments and extraordinary experiences. Your premier destination for luxury events and celebrations.
@@ -122,10 +122,10 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-white flex-shrink-0" />
                 <a
-                  href="mailto:blueribboneventss@gmail.com"
+                  href="mailto:info@godwinpalladium.com"
                   className="text-white/70 hover:text-white transition-colors duration-300"
                 >
-                  blueribboneventss@gmail.com
+                  info@godwinpalladium.com
                 </a>
               </div>
             </div>
@@ -145,7 +145,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-white/70 text-sm">
-            © {new Date().getFullYear()} The Blue Ribbon Events. All rights reserved. | Privacy Policy | Terms of Service
+            © {new Date().getFullYear()} The Godwin Palladium. All rights reserved. | Privacy Policy | Terms of Service
           </div>
           <div className="text-white/70 text-sm">
             Designed with ❤️ for extraordinary events
